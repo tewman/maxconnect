@@ -1,6 +1,8 @@
 To run: <br/>
   <div>npm run dev</div>
   <div>php artisan serve</div>
+  <br/>
+  <div>http://127.0.0.1:8000/</div>
 <br/>
 What I would do differently:<br/>
 <div>
