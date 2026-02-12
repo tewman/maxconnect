@@ -1,0 +1,11 @@
+[2026-02-12 18:01:50] local.ERROR: There are no commands defined in the "inertia" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"inertia\" namespace. at /Users/traviswinks/maxconnect/vendor/symfony/console/Application.php:624)
+[stacktrace]
+#0 /Users/traviswinks/maxconnect/vendor/symfony/console/Application.php(675): Symfony\\Component\\Console\\Application->findNamespace('inertia')
+#1 /Users/traviswinks/maxconnect/vendor/symfony/console/Application.php(259): Symfony\\Component\\Console\\Application->find('inertia:middlew...')
+#2 /Users/traviswinks/maxconnect/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /Users/traviswinks/maxconnect/vendor/laravel/framework/src/Illuminate/Console/Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /Users/traviswinks/maxconnect/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(155): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 /Users/traviswinks/maxconnect/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2026-02-12 18:34:03] local.WARNING: Ad API request failed {"status":503,"body":"{\"data\":null,\"error\":{\"code\":\"simulated_server_error\",\"message\":\"Service Unavailable\",\"status\":503},\"meta\":{\"request_id\":\"e34b3568-1918-4b9d-99da-23d7e944806d\",\"timestamp\":\"2026-02-12T18:34:03+00:00\"}}"} 
