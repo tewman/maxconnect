@@ -2,7 +2,7 @@ To run: <br/>
   <div>npm run dev</div>
   <div>php artisan serve</div>
 
-What I would do differently:
+What I would do differently:<br/>
 <div>
 <ol>
 <li>I would add .env to the .gitignore. But I allowed it this time so you wouldn't have to create it.</li>
