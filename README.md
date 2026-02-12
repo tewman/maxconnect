@@ -59,7 +59,7 @@ Laravel + Vue 3 + Inertia.js + Tailwind app that fetches digital marketing campa
 - **Frontend:** Vue 3, Inertia (client), Vite, Tailwind CSS
 
 
-- What I would do differently:<br/>
+## What I would do differently:<br/>
 <div>
 <ol>
 <li>I would add .env to the .gitignore. But I allowed it this time so you wouldn't have to create it.</li>
